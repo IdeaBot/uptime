@@ -1,0 +1,30 @@
+{
+  "version":{
+    "api":"v0.0.1",
+    "type":"ui-json"
+  },
+  "info":{
+    "name":"uptime",
+    "description":"Displays uptimes of things",
+    "help":"**Usage**\n```@Idea view uptimes ```\nTo add a new item to check it's uptime, click ➕\nTo remove an existing item, click ➖",
+    "package":"uptime",
+    "filepath":"addons/uptime/uptime_ui.py",
+    "maintainers": [],
+    "owner": "106537989684887552"
+  },
+  "lifespan":300,
+  "persistence":false,
+  "private":true,
+  "directOnly":true,
+  "shouldCreate":"shouldCreate",
+  "onCreate":"onCreate",
+  "onDelete":null,
+  "onPersist":null,
+  "onReaction":{"⬇":"down", "⬆":"up", "☑":"select", "➕":"add", "➖":"remove"},
+  "onMessage":"onMessage",
+  "defaultEmbed":{
+    "title":"Uptimes",
+    "description":"Loading Uptimes...",
+    "footer":{"text":"Specify the item to add/remove after clicking the reaction \\\/", "icon_url":null}
+  }
+}
